@@ -21,7 +21,7 @@ int main() {
 
 	int x = 0, n = 0;
 	cin >> x >> n;
-	power(x, n);
+	cout << power(x, n) << endl;
 
 	return 0;
 }
