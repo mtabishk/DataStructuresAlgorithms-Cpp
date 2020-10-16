@@ -12,7 +12,7 @@ int multiplyNumbers(int m, int n) {
 
 int main() {
 
-	//freopen("input.txt", "r", stdin);
+	freopen("input.txt", "r", stdin);
 	freopen("output.txt", "w", stdout);
 
 	int m = 3, n = 5;
