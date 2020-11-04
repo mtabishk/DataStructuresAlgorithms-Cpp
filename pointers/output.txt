@@ -1,0 +1,12 @@
+0x61fee8
+abcde
+30
+0x61fef0
+d
+de
+abcde
+a
+aabcde
+tabish
+a
+b
