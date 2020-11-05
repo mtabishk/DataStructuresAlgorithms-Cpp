@@ -66,6 +66,24 @@ int main() {
 			}
 			cout << "\n";
 		}
+
+		// deallocating memory for matrix 1
+		for (int i = 0; i < rows1; i++) {
+			delete [] p1[i];
+		}
+		delete [] p1 ;
+
+		// deallocating memory for matrix 2
+		for (int i = 0; i < rows2; i++) {
+			delete [] p2[i];
+		}
+		delete [] p2 ;
+
+		// deallocating memory for matrix 3
+		for (int i = 0; i < rows3; i++) {
+			delete [] p3[i];
+		}
+		delete [] p3 ;
 	}
 
 

@@ -14,6 +14,14 @@ void input2DArray(int** ptr, int rows, int cols) {
 		}
 	}
 }
+
+void deallocateMemoryto2DArray(int** ptr , int rows) {
+	for (int i = 0; i < rows; i++) {
+		delete [] ptr[i];
+	}
+	delete [] ptr ;
+}
+
 int main() {
 
 	//freopen("input.txt", "r", stdin);
@@ -58,8 +66,7 @@ int main() {
 
 		// matrix multiplication
 		cout << "\n\nThe new matrix is:\n";
-		for (int i = 0; i < rows1; ++i)
-		{
+		for (int i = 0; i < rows1; ++i) {
 			for (int j = 0; j < cols2; ++j)
 			{
 				*(*(p3 + i) + j) = 0;
@@ -69,6 +76,11 @@ int main() {
 			}
 			cout << "\n";
 		}
+
+		// deallocate memory
+		deallocateMemoryto2DArray(p1 , rows1);
+		deallocateMemoryto2DArray(p2 , rows2);
+		deallocateMemoryto2DArray(p3 , rows3);
 	}
 
 
