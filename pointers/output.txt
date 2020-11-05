@@ -1,12 +1,9 @@
-0x61fee8
-abcde
-30
-0x61fef0
-d
-de
-abcde
-a
-aabcde
-tabish
-a
-b
+ In main() function: 
+10
+0x61ff08
+ In print() function: 
+10
+0x61ff08
+20
+ After calling print(), In main() function: 
+20
