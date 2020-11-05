@@ -1,3 +1,2 @@
-0xf616f0
-Max element in array: 50
-0xf616f0
+20 30 
+40 50 
