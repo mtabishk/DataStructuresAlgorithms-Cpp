@@ -2,26 +2,26 @@
 using namespace std;
 #include <cstring>
 
-class Student{
-    public :
+class Student {
+public :
     char *name;
     int rollNo;
 
     // Constructor 1
-    Student(int num){
+    Student(int num) {
         rollNo = num;
         name = new char[10];
         strcpy(name, "abc");
     }
 
     // Constructor 2
-    Student(int num, char *str){
+    Student(int num, char *str) {
         rollNo = num;
         name = new char[strlen(str) + 1];
         strcpy(name, str);
     }
 
-    void print(){
+    void print() {
         cout << name << " "  <<  rollNo << " ";
     }
 };
