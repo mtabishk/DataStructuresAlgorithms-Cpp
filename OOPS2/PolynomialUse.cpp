@@ -41,6 +41,7 @@ int main() {
     }
 
     Polynomial first;
+
     for (int i = 0; i < count1; i++) {
         first.setCoefficient(degree1[i], coeff1[i]);
     }
@@ -59,6 +60,7 @@ int main() {
     }
 
     Polynomial second;
+
     for (int i = 0; i < count2; i++) {
         second.setCoefficient(degree2[i], coeff2[i]);
     }

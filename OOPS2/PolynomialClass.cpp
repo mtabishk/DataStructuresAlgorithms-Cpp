@@ -9,7 +9,7 @@ public:
 	// Default Constructor;
 	Polynomial () {
 		degCoeff = new int[10];
-		int capacity = 10;
+		capacity = 10;
 		for (int i = 0; i < 10; i++) {
 			degCoeff[i] = 0;
 		}
