@@ -4,10 +4,28 @@ using namespace std;
 
 int main() {
 
-    //freopen("input.txt", "r", stdin);
-    //freopen("output.txt", "w", stdout);
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
 
-
+    /* Input Format :
+    Line 1 : N, total number of terms in polynomial P1
+    Line 2 : N integers representing degree of P1 (separated by space)
+    Line 3 : N integers representing coefficients of P1 (separated by space)
+    Line 4 : M, total number of terms in polynomial P2
+    Line 5 : M integers representing degree of P2 (separated by space)
+    Line 6 : M integers representing coefficients of P2 (separated by space)
+    Line 7 : Integer C, choice representing the function to be called (See main for more details)
+    E.g.,
+    3
+    1 3 5
+    1 2 -4
+    4
+    0 1 2 3
+    4 2 -3 1
+    1
+    Output:
+    4x0 3x1 -3x2 3x3 -4x5
+    */
     int count1, count2, choice;
     cin >> count1;
 
