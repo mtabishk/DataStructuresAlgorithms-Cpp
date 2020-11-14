@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-#include "QueueUsingArray.h"
+#include "DynamicQueueUsingArray.h"
 
 int main() {
 	QueueUsingArray<int> q(5);
