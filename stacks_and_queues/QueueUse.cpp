@@ -1,9 +1,13 @@
 #include <iostream>
 using namespace std;
-#include "DynamicQueueUsingArray.h"
+#include "QueueUsingLinkedListTemplates.h"
 
 int main() {
-	QueueUsingArray<int> q(5);
+
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+
+	Queue<int> q;
 
 	q.enqueue(10);
 	q.enqueue(20);
@@ -20,5 +24,8 @@ int main() {
 
 	cout << q.getSize() << endl;
 	cout << q.isEmpty() << endl;
+
+	cout << q.front() << endl;
+
 }
 
