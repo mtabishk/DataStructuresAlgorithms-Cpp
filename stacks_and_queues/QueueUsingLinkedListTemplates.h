@@ -48,14 +48,14 @@ public:
 
 	T front() {
 		if (isEmpty()) {
-			return 0;
+			return -1;
 		}
 		return head->data;
 	}
 
 	T dequeue() {
 		if (isEmpty()) {
-			return 0;
+			return -1;
 		}
 		T ans = head->data;
 		Node<T> *temp = head;
