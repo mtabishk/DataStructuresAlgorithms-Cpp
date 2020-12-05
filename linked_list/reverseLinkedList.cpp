@@ -1,70 +1,80 @@
 #include <iostream>
 
-class Node
-{
+class Node {
 public:
-	int data;
-	Node *next;
-	Node(int data)
-	{
-		this->data = data;
-		this->next = NULL;
-	}
+    int data;
+    Node *next;
+    Node(int data) {
+        this->data = data;
+        this->next = NULL;
+    }
 };
 
 using namespace std;
 
-
-Node *takeinput()
-{
-	int data;
-	cin >> data;
-	Node *head = NULL, *tail = NULL;
-	while (data != -1)
-	{
-		Node *newnode = new Node(data);
-		if (head == NULL)
-		{
-			head = newnode;
-			tail = newnode;
-		}
-		else
-		{
-			tail->next = newnode;
-			tail = newnode;
-		}
-		cin >> data;
-	}
-	return head;
+Node *takeinput() {
+    int data;
+    cin >> data;
+    Node *head = NULL, *tail = NULL;
+    while (data != -1) {
+        Node *newnode = new Node(data);
+        if (head == NULL) {
+            head = newnode;
+            tail = newnode;
+        } else {
+            tail->next = newnode;
+            tail = newnode;
+        }
+        cin >> data;
+    }
+    return head;
 }
 
-#include <stack>
+void print(Node *head) {
+    Node *temp = head;
 
-void printReverse(Node *head)
-{
-	//Write your code here
-	Node* temp = head;
-	stack<int> s;
-	while (temp != NULL) {
-		int num = temp->data;
-		s.push(num);
-		temp = temp->next;
-	}
-	while (!s.empty()) {
-		cout << s.top() << " ";
-		s.pop();
-	}
+    while (temp != NULL) {
+        cout << temp->data << " ";
+        temp = temp->next;
+    }
+
+    cout << "\n";
 }
 
-int main()
-{
-	int t;
-	cin >> t;
-	while (t--)
-	{
-		Node *head = takeinput();
-		printReverse(head);
-		cout << endl;
-	}
-	return 0;
+Node *reverseLinkedList(Node *head) {
+    // Write your code here
+    if (head == NULL || head->next == NULL) {
+        return head;
+    }
+
+    Node *prev = NULL;;
+    Node *curr = head;
+    Node *nxt = head->next;
+
+    while (curr->next != NULL) {
+        curr->next = prev;
+        prev = curr;
+        curr = nxt;
+        nxt = curr->next;
+    }
+
+    curr->next = prev;
+    return curr;
+}
+
+int main() {
+
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+
+    int t;
+    cin >> t;
+
+    while (t--) {
+        Node *head = takeinput();
+        head = reverseLinkedList(head);
+        print(head);
+    }
+
+    return 0;
 }
