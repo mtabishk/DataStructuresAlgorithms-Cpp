@@ -53,19 +53,19 @@ void printLevelWise(TreeNode<int>* root) {
 	}
 }
 
-int numNodes(TreeNode<int>* root) {
-	int ans = 1 ;
+int sumOfNodes(TreeNode<int>* root) {
+	// Write your code here
+	int sum = root->data;
 	for (int i = 0; i < root->children.size(); i++) {
-		ans += numNodes(root->children[i]);
+		sum += sumOfNodes(root->children[i]);
 	}
-	return ans;
+	return sum;
 }
-
 int main() {
 
 	TreeNode<int>* root = takeInputLevelWise();
 	printLevelWise(root);
-	cout << "Total number of nodes: " << numNodes(root) << endl;
+	cout << "Total sum of nodes: " << sumOfNodes(root) << endl;
 
 
 	return 0;
