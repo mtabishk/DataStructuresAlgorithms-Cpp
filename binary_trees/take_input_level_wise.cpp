@@ -26,8 +26,10 @@ BinaryTreeNode<int>* takeInput() {
         return NULL;
     }
     BinaryTreeNode<int>* root = new BinaryTreeNode<int>(rootData);
+
     queue<BinaryTreeNode<int>*> q;
     q.push(root);
+
     while (!q.empty()) {
         BinaryTreeNode<int>* currentNode = q.front();
         q.pop();
@@ -42,8 +44,7 @@ BinaryTreeNode<int>* takeInput() {
 
         cin >> rightChild;
         if (rightChild != -1) {
-            BinaryTreeNode<int>* rightNode =
-                new BinaryTreeNode<int>(rightChild);
+            BinaryTreeNode<int>* rightNode = new BinaryTreeNode<int>(rightChild);
             currentNode->right = rightNode;
             q.push(rightNode);
         }
