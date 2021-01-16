@@ -78,7 +78,7 @@ int numNodes(BinaryTreeNode<int>* root) {
 	return 1 + numNodes(root->left) + numNodes(root->right);
 }
 
-// 1 2 3 4 5 6 7 -1 -1 -1 -1 8 9 -1 -1 -1 -1 -1 -1
+
 int main() {
 	freopen("input.txt", "r", stdin);
 	freopen("output.txt", "w", stdout);
