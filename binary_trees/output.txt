@@ -1,10 +1,29 @@
-Enter Data: 
-Enter Data: 
-Enter Data: 
-Enter Data: 
-Enter Data: 
-Enter Data: 
-Enter Data: 
-1: 	L: 2	R: 3
-2: 
-3: 
+Enter root data
+Enter left child of 1
+Enter right child of 1
+Enter left child of 2
+Enter right child of 2
+Enter left child of 3
+Enter right child of 3
+Enter left child of 4
+Enter right child of 4
+Enter left child of 5
+Enter right child of 5
+Enter left child of 6
+Enter right child of 6
+Enter left child of 7
+Enter right child of 7
+Enter left child of 8
+Enter right child of 8
+Enter left child of 9
+Enter right child of 9
+1:L2R3
+2:L4R5
+4:
+5:
+3:L6R7
+6:L8R9
+8:
+9:
+7:
+Num: 9
