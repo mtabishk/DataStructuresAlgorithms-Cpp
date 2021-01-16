@@ -50,20 +50,10 @@ BinaryTreeNode<int>* takeInput() {
     return root;
 }
 
-void inorder(BinaryTreeNode<int> *root) {
+void preOrder(BinaryTreeNode<int> *root) {
     // Write your code here
-    if (root == NULL) return;
-
-    inorder(root->left);
-    cout << root->data << " ";
-    inorder(root->right);
-
-    return;
 }
 int main() {
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-
     BinaryTreeNode<int>* root = takeInput();
-    inorder(root);
+    preOrder(root);
 }
