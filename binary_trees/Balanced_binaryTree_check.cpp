@@ -1,3 +1,4 @@
+// Time Complexity: O(n)
 pair<bool, int> isBalancedHelper(BinaryTreeNode<int> *root) {
     if (root == NULL) {
         pair<bool, int> p;
