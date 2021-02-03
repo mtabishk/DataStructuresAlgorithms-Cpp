@@ -1,13 +1,9 @@
 #include <vector>
 #include <climits>
-
 class PriorityQueue {
-	vector<int> pq;
+	std::vector<int> pq;
+
 public:
-	PriorityQueue() {
-
-	}
-
 	bool isEmpty() {
 		return pq.size() == 0;
 	}
@@ -17,10 +13,11 @@ public:
 	}
 
 	int getMin() {
-		if ( isEmpty() ) {
-			return 0; // Priority Queue is Empty
+		if (isEmpty()) {
+			return 0;
 		}
-		return pq.at[0];
+
+		return pq[0];
 	}
 
 	void insert(int element) {
@@ -28,16 +25,15 @@ public:
 
 		int childIndex = pq.size() - 1;
 
-		// rootIndex == 0, root has no parent
 		while (childIndex > 0) {
 			int parentIndex = (childIndex - 1) / 2;
 
-			if ( pq[childIndex] > pq[parentIndex] ) {
+			if (pq[childIndex] < pq[parentIndex]) {
 				int temp = pq[childIndex];
 				pq[childIndex] = pq[parentIndex];
 				pq[parentIndex] = temp;
 			} else {
-				break; // child and parent are in correct order
+				break;
 			}
 
 			childIndex = parentIndex;
