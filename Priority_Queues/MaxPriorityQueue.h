@@ -1,15 +1,15 @@
 #include <vector>
 #include <climits>
 class MaxPriorityQueue {
-	std::vector<int> pq;
+	std::vector<int> data;
 
 public:
 	bool isEmpty() {
-		return pq.size() == 0;
+		return data.size() == 0;
 	}
 
 	int getSize() {
-		return pq.size();
+		return data.size();
 	}
 
 	int getMax() {
@@ -17,24 +17,24 @@ public:
 			return INT_MAX;
 		}
 
-		return pq[0];
+		return data[0];
 	}
 
 	void insert(int element) {
-		pq.push_back(element);
+		data.push_back(element);
 
-		int childIndex = pq.size() - 1;
+		int childIndex = data.size() - 1;
 
 		while (childIndex > 0) {
 			int parentIndex = (childIndex - 1) / 2;
 
-			if ( pq[parentIndex] > pq[childIndex] ) {
+			if ( data[parentIndex] > data[childIndex] ) {
 				return;
 			}
 
-			int temp = pq[childIndex];
-			pq[childIndex] = pq[parentIndex];
-			pq[parentIndex] = temp;
+			int temp = data[childIndex];
+			data[childIndex] = data[parentIndex];
+			data[parentIndex] = temp;
 
 			childIndex = parentIndex;
 		}
@@ -44,26 +44,26 @@ public:
 		if (isEmpty()) {
 			return INT_MAX;
 		}
-		int ans = pq[0];
+		int ans = data[0];
 
-		// update the root (min element) with last element of pq and then remove it.
-		pq[0] = pq[pq.size() - 1];
-		pq.pop_back();
+		// update the root (min element) with last element of data and then remove it.
+		data[0] = data[data.size() - 1];
+		data.pop_back();
 
 		// Down-Heapify
 		int parentIndex = 0;
 		int leftChildIndex = (2 * parentIndex) + 1;
 		int rightChildIndex = (2 * parentIndex) + 2;
 
-		while (leftChildIndex < pq.size() ) {
+		while (leftChildIndex < data.size() ) {
 			int maxIndex = parentIndex;
 
 			// swap
-			if (pq[leftChildIndex] > pq[maxIndex] ) {
+			if (data[leftChildIndex] > data[maxIndex] ) {
 				maxIndex = leftChildIndex;
 			}
 
-			if (rightChildIndex < pq.size() && pq[rightChildIndex] > pq[maxIndex]) {
+			if (rightChildIndex < data.size() && data[rightChildIndex] > data[maxIndex]) {
 				maxIndex = rightChildIndex;
 			}
 
@@ -71,9 +71,9 @@ public:
 				break;
 			}
 
-			int temp = pq[maxIndex];
-			pq[maxIndex] = pq[parentIndex];
-			pq[parentIndex] = temp;
+			int temp = data[maxIndex];
+			data[maxIndex] = data[parentIndex];
+			data[parentIndex] = temp;
 
 			parentIndex = maxIndex;
 			leftChildIndex = 2 * parentIndex + 1;
