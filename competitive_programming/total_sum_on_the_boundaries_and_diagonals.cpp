@@ -3,45 +3,45 @@ using namespace std;
 
 // Method 1
 // Space Complexity: O(n)
-int totalSum(int **input, int n) {
+// int totalSum(int **input, int n) {
     
-    // flag 2d array 
-    int **pflag = new int* [n];
-    for (int i=0; i < n; i++) {
-        pflag[i] = new int[n];
-        for(int j=0; j<n; j++) {
-            pflag[i][j] = -1; // -1 indicates this index is not added yet
-        }
-    }
+//     // flag 2d array 
+//     int **pflag = new int* [n];
+//     for (int i=0; i < n; i++) {
+//         pflag[i] = new int[n];
+//         for(int j=0; j<n; j++) {
+//             pflag[i][j] = -1; // -1 indicates this index is not added yet
+//         }
+//     }
     
-    for (int i=0; i<n; i++) {
-        for(int j=0; j<n; j++) {
-            if (i == 0 || i == n-1) pflag[i][j] = 0;
-            else if (j == 0 || j == n-1) pflag[i][j] = 0;
-            else if (i==j) pflag[i][j] = 0;
-            else if (i+j == n-1) pflag[i][j] = 0;
+//     for (int i=0; i<n; i++) {
+//         for(int j=0; j<n; j++) {
+//             if (i == 0 || i == n-1) pflag[i][j] = 0;
+//             else if (j == 0 || j == n-1) pflag[i][j] = 0;
+//             else if (i==j) pflag[i][j] = 0;
+//             else if (i+j == n-1) pflag[i][j] = 0;
 
-        }
-    }
+//         }
+//     }
 
-    int sum = 0;
-    for (int i=0; i<n; i++) {
-        for(int j=0; j<n; j++) {
-            if (pflag[i][j] != -1) sum += input[i][j];
-            //cout << pflag[i][j] << "\t";
-        }
-       // cout << endl;
-    }
+//     int sum = 0;
+//     for (int i=0; i<n; i++) {
+//         for(int j=0; j<n; j++) {
+//             if (pflag[i][j] != -1) sum += input[i][j];
+//             //cout << pflag[i][j] << "\t";
+//         }
+//     // cout << endl;
+//     }
     
-    return sum;
+//     return sum;
 
-    for (int i=0; i < n; i++) {
-        delete pflag[i];
-    }
-    delete [] pflag;
-}
+//     for (int i=0; i < n; i++) {
+//         delete pflag[i];
+//     }
+//     delete [] pflag;
+// }
 
-// Method 2
+// Method 1
 // Space Complexity: O(1)
 int getSumOfLeftDiagonal(int **input, int n) {
     int sum = 0;
@@ -109,4 +109,3 @@ int main() {
 	}
     return 0;
 }
-

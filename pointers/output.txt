@@ -1,9 +1,0 @@
-+-----------Matrix Multiplication using DMA--------------+
-Enter total no. of rows and columns in matrix 1
-Enter total no. of rows and columns in matrix 2
-
-
-The new matrix is:
-209718400 209718400 209718400 
-317723376 317723376 317723376 
-104859200 104859200 104859200 
