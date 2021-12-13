@@ -2,10 +2,13 @@
 using namespace std;
 
 int factorial(int n) {
+	// base case
 	if (n <= 1 ) return 1; // factorial(1) == 1
-	cout << n << endl;
+	// assuming f(n-1) will work
 	int smallOutput = factorial(n - 1);
-	return n * smallOutput;
+	// solving actual problem
+	int output = n * smallOutput;
+	return output;
 }
 
 int main() {

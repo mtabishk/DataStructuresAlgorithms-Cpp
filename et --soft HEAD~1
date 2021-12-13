@@ -1,0 +1,813 @@
+[33mcommit f6c60db5b50ec0dc6c444e17be90873a6b7118ec[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Mon Dec 13 22:28:34 2021 +0530
+
+    started at 13-12-2021
+    
+    Signed-off-by: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+
+[33mcommit 58f1b98c86c92346611db5f0ffa5b06657275610[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Wed Aug 25 10:31:12 2021 +0530
+
+    factorial
+
+[33mcommit 6086fa9751feb89bfc74db92fc8fafccc4151fc2[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Wed Aug 25 10:15:40 2021 +0530
+
+    update
+
+[33mcommit 78eb5cf47df1d773d5c5a1358481f859a22ee4ca[m
+Author: Muhammad Tabish Khanday <61789893+mtabishk@users.noreply.github.com>
+Date:   Fri Apr 16 12:13:36 2021 +0530
+
+    Create total_sum_on_the_boundaries_and_diagonals.cpp
+
+[33mcommit eb2a2ee3617c3c7f8d0ba24e3a78a113695f9008[m
+Author: Muhammad Tabish Khanday <61789893+mtabishk@users.noreply.github.com>
+Date:   Fri Apr 16 10:17:36 2021 +0530
+
+    Create even_and_odd_indexes.cpp
+
+[33mcommit 7da03c47856e28f4f201a0289c6abc70dd18992b[m
+Merge: 53fa900 5e16fcb
+Author: Tabish <mtabishkhanday@gmail.com>
+Date:   Tue Mar 2 13:41:47 2021 +0530
+
+    fixed
+
+[33mcommit 53fa9004198cca816b29cd0c28e20c4ce04e6706[m
+Author: Tabish <mtabishkhanday@gmail.com>
+Date:   Tue Mar 2 13:40:59 2021 +0530
+
+    update
+
+[33mcommit 5e16fcbecc40761c5bfed29d1e35439b1702a6d4[m
+Author: Muhammad Tabish Khanday <61789893+mtabishk@users.noreply.github.com>
+Date:   Sat Feb 27 21:49:02 2021 +0530
+
+    Update input.txt
+
+[33mcommit 46484c90294f6f180bc5f30dcd34e426b852dc1a[m
+Author: Tabish <mtabishkhanday@gmail.com>
+Date:   Wed Feb 3 19:28:34 2021 +0530
+
+    Max Priority Queue
+
+[33mcommit f438c6c2224ff4b14ef71404b33e0d29ea974462[m
+Author: Tabish <mtabishkhanday@gmail.com>
+Date:   Wed Feb 3 12:30:05 2021 +0530
+
+    updated
+
+[33mcommit dfce48d12256a0aa623b664b72c01a95ec5d7984[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Fri Jan 29 12:10:47 2021 +0530
+
+    priority queues class
+
+[33mcommit 3e288e6698090ff484a2114c8636694bbb2498b6[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Fri Jan 29 11:27:05 2021 +0530
+
+    added priority queues
+
+[33mcommit 79ea07a7be5567eea2ac600f71652b7395a9fd62[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Wed Jan 27 20:06:10 2021 +0530
+
+    BST Class
+
+[33mcommit 513a69859f2bbf794b2d03f53fd152fade398083[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Wed Jan 27 11:35:27 2021 +0530
+
+    BST Class
+
+[33mcommit 83baca509d38d54808e2930010fda81eb3b9b476[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Wed Jan 27 10:49:01 2021 +0530
+
+    path from node to root
+
+[33mcommit 1edde134691d37683774d16b5a790e84828e4f90[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Wed Jan 27 09:54:54 2021 +0530
+
+    update
+
+[33mcommit 378040cc390e196aaffa060339e7c4367d7f6461[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Mon Jan 25 13:00:28 2021 +0530
+
+    construct linked list from BST
+
+[33mcommit 7dbdd49ee9ae42cb86275f40f56e2d338c074ea1[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Mon Jan 25 11:12:11 2021 +0530
+
+    construct bst from sorted array
+
+[33mcommit 5d4c1ddbf4610fa689527ef52264291a5c2ade94[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Mon Jan 25 10:01:44 2021 +0530
+
+    is a tree BST
+
+[33mcommit a4db19c3bd92cf607f02f7d0afe8734407c91cba[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sat Jan 23 11:01:23 2021 +0530
+
+    print elements in range [k1,k2] in increasing order
+
+[33mcommit 10a20f4c551d6f3d117b7b4b6a2d91f16c1c2e84[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sat Jan 23 10:33:18 2021 +0530
+
+    update
+
+[33mcommit f0ff9297222eea2111225d503806d479e5204478[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Fri Jan 22 18:33:59 2021 +0530
+
+    update
+
+[33mcommit a1e22719e24107551cfe72d20cba0450c4b5cb38[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Thu Jan 21 12:35:34 2021 +0530
+
+    nodes without any siblings
+
+[33mcommit 98827fceffa87488237e0b6e820e3c825c3a1105[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Thu Jan 21 12:28:08 2021 +0530
+
+    zig zag traversal
+
+[33mcommit a385fa74770c9c2244fa7c0d2f422b47e671cd69[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Thu Jan 21 11:00:38 2021 +0530
+
+    level wise linked list
+
+[33mcommit e2103f0c1c626a0f85e32f49eb7dec3309eda95b[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Thu Jan 21 10:49:35 2021 +0530
+
+    remove all leaf nodes
+
+[33mcommit fd5e0fa22697f403cc142d442d765d8187201aae[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Thu Jan 21 09:57:44 2021 +0530
+
+    level order traversal
+
+[33mcommit f83e878d3ce78decefa979c29e96e9ebd59d8992[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Wed Jan 20 12:56:48 2021 +0530
+
+    balanced check update
+
+[33mcommit e134f9a413a31b2322ecac8a07114de5a56d77c5[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Wed Jan 20 12:55:24 2021 +0530
+
+    balanced check
+
+[33mcommit 864d60c7d946e90febad411825863be06d023fda[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Tue Jan 19 12:17:56 2021 +0530
+
+    sum of all nodes of binary tree
+
+[33mcommit 785c67aa5fcf5bc66a6ba14b6ee5b1ad5dcfa4bb[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Tue Jan 19 12:13:19 2021 +0530
+
+    min and max node in binary tree
+
+[33mcommit 03503e594f355661c5daa2f8f6668b6803e15e62[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Tue Jan 19 11:26:36 2021 +0530
+
+    better approach O(n) for diameter of tree
+
+[33mcommit 2115f290c7d2b64301af9dd73563326c2833c8ee[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Tue Jan 19 11:25:15 2021 +0530
+
+    diameter of tree
+
+[33mcommit 616c514e49e8475fd1886eb5de13eac8630061f3[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Tue Jan 19 10:15:59 2021 +0530
+
+    build tree from postorder and inorder array
+
+[33mcommit ec21640d2f32cf7f6e402a6843efb5616a03eac5[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Mon Jan 18 22:33:07 2021 +0530
+
+    buildTree using preorder and inorder array
+
+[33mcommit a5bf79dbb48b0fed679e184fb9820c1780b0d5d4[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sun Jan 17 12:25:30 2021 +0530
+
+    test code
+
+[33mcommit 35354b4636fb7379eac477189376684cba8930d5[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sat Jan 16 10:47:01 2021 +0530
+
+    postorder traversal in binary trees
+
+[33mcommit 531102abc27357f28874f91b272961d5774072ff[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sat Jan 16 10:46:05 2021 +0530
+
+    preorder traversal in binary trees
+
+[33mcommit fc5ebac12b16aaa69743cae5dbc3a24b64d548c6[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sat Jan 16 10:42:13 2021 +0530
+
+    inorder traversal in binary trees
+
+[33mcommit 24fefca9ada7b651480bd07c5408aa44b4a5b242[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sat Jan 16 10:38:34 2021 +0530
+
+    update
+
+[33mcommit 198017c4edd2b0fe5e21ebac1d5fc37b6c4a79a8[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sat Jan 16 08:48:33 2021 +0530
+
+    height of binary tree
+
+[33mcommit c09ba800a59ba1e43e596c555588989c7eb41a7c[m
+Merge: 717d4a3 5d3f606
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sat Jan 16 08:25:42 2021 +0530
+
+    Merge branch 'master' of https://github.com/mtabishk/DataStructuresAlgorithms-Cpp
+
+[33mcommit 717d4a30fcc7114fa04aaa64f3a3af3aa56ac4c1[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sat Jan 16 08:25:14 2021 +0530
+
+    num of nodes
+
+[33mcommit 5d3f6068271c333da13049116519bd7199ddb8a4[m
+Author: Muhammad Tabish Khanday <61789893+mtabishk@users.noreply.github.com>
+Date:   Wed Jan 13 19:02:29 2021 +0530
+
+    Update README.md
+
+[33mcommit c4cafbef7c43eb884aa5d722fb0806f873464a79[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Thu Jan 7 22:51:06 2021 +0530
+
+    print tree level wise
+
+[33mcommit 21a2968e4f563fd9cc8bd73719d92de47ee975d0[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Tue Jan 5 12:52:51 2021 +0530
+
+    print tree level wise
+
+[33mcommit 2961025c59ba8630ac6b3bc07c954463626075e1[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Tue Jan 5 12:22:57 2021 +0530
+
+    take input in trees
+
+[33mcommit a218dee1825eb4f0ffa80afb5e7db74809a48431[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Tue Jan 5 12:09:33 2021 +0530
+
+    print tree
+
+[33mcommit 356972ad60894cecb9b4eab2d47c3ccbc73fa8b1[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Tue Jan 5 11:54:47 2021 +0530
+
+    'updates'
+
+[33mcommit dfb73a09e659142da359c38ec8cf6874ca12bdd4[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sat Jan 2 21:47:45 2021 +0530
+
+    take input in binary tree
+
+[33mcommit db104bcc8dcd9906210d487003b076e34e711ec3[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Fri Jan 1 22:24:38 2021 +0530
+
+    added binary trees
+
+[33mcommit 598d0cd359c47a28594bb678f9cdda933a0944ad[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Tue Dec 29 22:09:16 2020 +0530
+
+    replace node data with their depth values
+
+[33mcommit 5cf1bcf481c84224a4a48d07c70aa586c59a9c43[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Tue Dec 29 21:50:02 2020 +0530
+
+    second largest node
+
+[33mcommit ddebb73b31eb13fa90998bc56f1a7d9afd6a8dd8[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Tue Dec 29 20:35:36 2020 +0530
+
+    tree programs
+
+[33mcommit 962b426aec450f4ec3e6d154f9b973368f0a6c42[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Tue Dec 29 14:10:07 2020 +0530
+
+    sum of max. child
+
+[33mcommit 082093b8c74738420021ccf43204b3cbb7450bf9[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Tue Dec 29 12:08:33 2020 +0530
+
+    new codes
+
+[33mcommit ef67f62f8d0fa587da583a1badddffa14b73be1c[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Tue Dec 29 12:04:12 2020 +0530
+
+    new codes
+
+[33mcommit b3c59f665c6ab5609ca8f1e0fc4aca1a72f25459[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Wed Dec 16 17:10:51 2020 +0530
+
+    print nodes at k level
+
+[33mcommit efa15a13460cb029c38b428a98d6000e9e6aa220[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Wed Dec 16 15:32:23 2020 +0530
+
+    tree height
+
+[33mcommit a75a89fb68015698c8b33796a27298d967c621b7[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sat Dec 12 14:44:18 2020 +0530
+
+    problems
+
+[33mcommit 73d8c3c03f711dee9ba03fb249e9bbef417ad948[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Fri Dec 11 19:18:23 2020 +0530
+
+    sum of nodes in tree
+
+[33mcommit 6346bf1534a7c8af40259fd249a3379789ab0f6e[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Fri Dec 11 19:08:38 2020 +0530
+
+    count nodes in tree
+
+[33mcommit db21b94f0b818bfd04015dc00f8c48f159854c1f[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Fri Dec 11 18:41:52 2020 +0530
+
+    tree input output
+
+[33mcommit cfa41fe84c9a0ecd80b1806ec8b93e50c44d7cbe[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Fri Dec 11 18:19:54 2020 +0530
+
+    added Tree Use.cpp
+
+[33mcommit 4a9205ef8d70a7c4d6595fbc14b8253bd646c3db[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Fri Dec 11 11:28:06 2020 +0530
+
+    added trees
+
+[33mcommit 8c76ccb9f8e196d6e59481fb96cc329378119e09[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Tue Dec 8 10:51:58 2020 +0530
+
+    bubble sort on ll
+
+[33mcommit e81b795a660590ce258cee4eec8ac53cff17488e[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Mon Dec 7 22:47:58 2020 +0530
+
+    problems
+
+[33mcommit 3abc10b3eb268cc831fc5e2f955c690333ef3ee9[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sun Dec 6 18:13:01 2020 +0530
+
+    Delete every N nodes after M nodes
+
+[33mcommit cb5fb52b2742133eb826b4112e46944acd739347[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sun Dec 6 16:08:44 2020 +0530
+
+    even after odd LL
+
+[33mcommit 473ca3a8af2a41a726db3d416ef2ac704cd71be2[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sun Dec 6 15:21:59 2020 +0530
+
+    find node index recursion
+
+[33mcommit d91033dd87a7d65af56b594a6faee0f0757fd413[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sat Dec 5 14:07:18 2020 +0530
+
+    reverse ll
+
+[33mcommit 280ced0a91c5a763d073126d1682a76a1a54e06b[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sat Dec 5 13:04:26 2020 +0530
+
+    reverse ll recusion better O(n)
+
+[33mcommit ba2645c4d8775b23bb08dc9a84749549810375c7[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sat Dec 5 11:44:40 2020 +0530
+
+    merge sort on LL
+
+[33mcommit 98f00128384451affe1f63145cb3e7d18683f6c4[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Fri Dec 4 19:04:18 2020 +0530
+
+    updated
+
+[33mcommit c231d03c4d8104ee063a16f68f7472d4dc555f27[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sun Nov 22 18:55:37 2020 +0530
+
+    additional files
+
+[33mcommit 285312b4f1265cacb59071db5fb3f7de61d05615[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sun Nov 22 18:50:42 2020 +0530
+
+    minimum Bracket Reversal problem
+
+[33mcommit c8ebff2a57440290d2c8b1d8f67b29b3e3edbe0b[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sun Nov 22 18:49:14 2020 +0530
+
+    reverse Linked List
+
+[33mcommit 898b616e6e28b25e9e47a011a74af5f71733d2c3[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sun Nov 22 18:17:24 2020 +0530
+
+    eliminate duplicates and find node problem.cpp
+
+[33mcommit fadef0a17e3f719df2dd479d87dc1be91f51bb09[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sun Nov 22 15:06:36 2020 +0530
+
+     insert and delete node recursively
+
+[33mcommit 2287fa391a4b1967e0298a366a94bb2fb8c4e7db[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sun Nov 22 11:01:44 2020 +0530
+
+    stock span problem
+
+[33mcommit eeb369c6e7051ccc704021be4b2f08ec9a7f9071[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Thu Nov 19 16:41:23 2020 +0530
+
+    check redundant brackets updated
+
+[33mcommit f102fe034519c9a64f4fb4df498f7ddb92b4b3d5[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Thu Nov 19 16:39:51 2020 +0530
+
+    check redundant brackets
+
+[33mcommit 772ad4de80bf2aa2e5d0d67f4cdf17a584d4647a[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Wed Nov 18 21:06:06 2020 +0530
+
+    design analysis and algorithms
+
+[33mcommit a86793abb08b44f533eef631d8b4b9754e2b3217[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Wed Nov 18 20:54:06 2020 +0530
+
+    reverse stack and queue using recursion
+
+[33mcommit c4db8a1fd645becdc91b2e0820f69864b402868b[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Wed Nov 18 18:00:24 2020 +0530
+
+    balanced parenthesis qn
+
+[33mcommit 72519ea2783520a2c58012ed1d4bcda860490af1[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sat Nov 14 19:29:26 2020 +0530
+
+    stack using ll
+
+[33mcommit 4895d590df1ce067ae94a0d0f682a7f034aca9eb[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sat Nov 14 18:32:08 2020 +0530
+
+    added stack using ll
+
+[33mcommit 90c77028e8dd0ba79f2e5e1e0f71ed06f0ef2908[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sat Nov 14 11:48:23 2020 +0530
+
+    dynamic queue using array
+
+[33mcommit 4f99a2d45b933a99b4df809548c280f9dfc2758c[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sat Nov 14 11:10:10 2020 +0530
+
+    queue using array
+
+[33mcommit d4ad4b95d15577fc032b74550b8118822fdc302f[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Fri Nov 13 22:14:34 2020 +0530
+
+    inbuild stac
+
+[33mcommit f2634d2d799cfb07b2e445c7ef9944392af741d8[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Fri Nov 13 22:10:45 2020 +0530
+
+    added StackUsingLinkedList and Templates
+
+[33mcommit 0909eeda8e2053d3015775325346dfcdc587d3f3[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Fri Nov 13 22:03:05 2020 +0530
+
+    added StackUsingLinkedList
+
+[33mcommit d5a638c6a8d4030eca8213de1c0fa14cd057fe9e[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Fri Nov 13 11:41:34 2020 +0530
+
+    added stack using array and templates
+
+[33mcommit d4808c518d160198d183c165ec1f34d6658b3b47[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Fri Nov 13 11:36:14 2020 +0530
+
+    added triplet using templates
+
+[33mcommit d8fb7dcefdb53da5cc72f177526dc65e99b8369f[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Fri Nov 13 11:27:17 2020 +0530
+
+    added templates
+
+[33mcommit 412e8ccdbd9415a60a3b9f1a2927e4d55155d843[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Fri Nov 13 11:17:58 2020 +0530
+
+    dynamic stack using array
+
+[33mcommit f9c1a9cf80b0a07c0e9efbeafea720a2c237f678[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Fri Nov 13 11:12:09 2020 +0530
+
+    added stack using array
+
+[33mcommit 27e52f118fa6e690cd6570e35032d770749b47e0[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Wed Nov 11 17:16:27 2020 +0530
+
+    length of linked list using recursion
+
+[33mcommit 31bbc074f6012a8e8ffa3d4aeb6dfc524d65ce46[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Wed Nov 11 17:01:07 2020 +0530
+
+    delete a node in linked list
+
+[33mcommit 501bfbf87937f4ee2deae0949e81e69c00af4219[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Tue Nov 10 19:23:03 2020 +0530
+
+    insert_in_linked_list
+
+[33mcommit e635aad8ba6814fc1386d2fe22818f863e6fbc67[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Tue Nov 10 08:31:08 2020 +0530
+
+    input in linked list
+
+[33mcommit 3f7fa8df433b3936716551c25e98d45e6132cb37[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Tue Nov 10 06:32:22 2020 +0530
+
+    added dynamically created nodes in ll
+
+[33mcommit d3749ac412b607e5cce57501ace96c0334b20d58[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Mon Nov 9 21:45:37 2020 +0530
+
+    added linked list
+
+[33mcommit a3a10353de8b0172c0eb0e5fef8a55f753006537[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Mon Nov 9 17:29:39 2020 +0530
+
+    polynomial class
+
+[33mcommit eb36e4e654287b723df56d25319cee7339e13b90[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Mon Nov 9 17:24:58 2020 +0530
+
+    added polynomial class
+
+[33mcommit 52cc1c26b133b16cd6e1705bb5077b85e9e4f977[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Mon Nov 9 16:36:17 2020 +0530
+
+    dynamic array
+
+[33mcommit 43e7acd6a42edb592fcb6489466df1c01f49911a[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sun Nov 8 18:54:01 2020 +0530
+
+    added operator overloading ++ pre and post
+
+[33mcommit 30ee72d7da78f92a7772df4a0afdfd9ed18a6a7f[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sun Nov 8 18:22:53 2020 +0530
+
+    added operator overloading ++
+
+[33mcommit cc9d55730b9508a80c5df293161abf15faa94d4e[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sun Nov 8 12:26:41 2020 +0530
+
+    added static properties code
+
+[33mcommit 4c591f608cae949690213337869f0990efe8ae75[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sun Nov 8 12:24:02 2020 +0530
+
+    added oops2
+
+[33mcommit d608c53a9d9ae8540b09ba2580033247c02297d3[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sat Nov 7 06:47:37 2020 +0530
+
+    updated complex class
+
+[33mcommit 0c5ffd00ba5b14ae7eb7fe6db83ac8f2efa1e14f[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sat Nov 7 06:38:13 2020 +0530
+
+    deep and shallow copy
+
+[33mcommit 6133e9cf6c6832fbfbbc06fcfd07f07f62a0c2e0[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Fri Nov 6 17:21:28 2020 +0530
+
+    oops started
+
+[33mcommit e8b146e400fdb4ced733e3fb2c330d8cdee0bc96[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Thu Nov 5 11:55:54 2020 +0530
+
+    added git ignore
+
+[33mcommit 66ffa6f598eaa8f7da8d365947040593357ad4ab[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Thu Nov 5 11:48:27 2020 +0530
+
+    updated dma and other programs
+
+[33mcommit df629d455a59de3271e7a5ae4229c0aa041b2d27[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Thu Nov 5 11:38:08 2020 +0530
+
+    added more dma and other programs
+
+[33mcommit db336ecf0041c8e26fe99424c4db3db0fd3cc76d[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Thu Nov 5 10:06:38 2020 +0530
+
+    dma 2d array
+
+[33mcommit ec27a4c0db977c62780a24f05487f4bd24c95fa8[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Thu Nov 5 09:48:02 2020 +0530
+
+    added dma
+
+[33mcommit 69f5c8f7e42039b548fd070e626db23c2bcc3087[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Thu Nov 5 08:10:14 2020 +0530
+
+    refrence
+
+[33mcommit b8563615f5273b2bcca7f6c85f9d8a8e01c0a209[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Thu Nov 5 07:29:06 2020 +0530
+
+    more program in pointers
+
+[33mcommit a26012ef5f5133baadb4b2411e1ff66748c280b3[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Thu Nov 5 06:12:57 2020 +0530
+
+    added functions and pointers
+
+[33mcommit cfda3233640e646a542eb7ed21892d1c54eeba0d[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Wed Nov 4 19:35:54 2020 +0530
+
+    added pointer programs
+
+[33mcommit 3e634672b9b5f3889fd1bd43374e0a69c737d982[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Wed Oct 21 18:39:06 2020 +0530
+
+    added recursion
+
+[33mcommit 836d2e3f41c2d5a5fdf7e84a49a940f30639fcdb[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Wed Oct 21 18:36:43 2020 +0530
+
+    updated
+
+[33mcommit cb6d557d8261d32f666d62596505bcfae191b3ba[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Fri Oct 16 17:44:33 2020 +0530
+
+    updated
+
+[33mcommit 33128a3938c67d15b1e82147dceca43a7de130a1[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Mon Oct 5 12:20:23 2020 +0530
+
+    pair Star
+
+[33mcommit 3d239c4a5aa7bd41ed8d7c83c896abeffabf0364[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Mon Oct 5 11:45:32 2020 +0530
+
+    05-10 string to int
+
+[33mcommit 4645f2b1b10b56414507d2236eef13bfd5448bec[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Mon Oct 5 10:44:56 2020 +0530
+
+    remove_x_rec cpp
+
+[33mcommit add693d058ede8249c79e55b6602fce0fadf7d84[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sun Oct 4 17:58:10 2020 +0530
+
+    update
+
+[33mcommit 5863a3c2fcac64cd5b84b28114ad6e139a622ff5[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Sun Oct 4 17:39:32 2020 +0530
+
+    on 04/10/2020
+
+[33mcommit 3cd99b4142b28af0db308937e975b6185d8dacd5[m
+Author: Muhammad Tabish Khanday <61789893+mtabishk@users.noreply.github.com>
+Date:   Thu Sep 10 18:06:18 2020 +0530
+
+    Update README.md
+
+[33mcommit 44c299bbb2183c55fc69e00a3d6e3d848de17579[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Thu Sep 10 17:53:23 2020 +0530
+
+    10-sep-2020
+
+[33mcommit 9bb7e4749bc03834843b417e0655a7988ad4e790[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Wed Sep 9 11:23:15 2020 +0530
+
+    updated
+
+[33mcommit 8c9e0a112a0968aa5d9a3d3903f5405fea8602f0[m
+Author: Muhammad Tabish Khanday <mtabishkhanday@gmail.com>
+Date:   Wed Sep 9 11:20:14 2020 +0530
+
+    started dsa
+
+[33mcommit f97ec69472512c78bec67406cf6da77df0c0ab92[m
+Author: Muhammad Tabish Khanday <61789893+mtabishk@users.noreply.github.com>
+Date:   Wed Sep 9 11:07:42 2020 +0530
+
+    Initial commit
