@@ -13,7 +13,9 @@ int maxIndex(float *arr, int n) {
 	return index;
 }
 
-// knapsack problem or fractional knapsack problem
+// GREEDY ALGORITH: Knapsack problem or fractional knapsack problem
+// Greedy by both profit and weight (profit/weight ratio)
+
 float knapsack(int* profits, int* weights, int cap, int n) {
 	float *profitsWeights = new float [n];
 
