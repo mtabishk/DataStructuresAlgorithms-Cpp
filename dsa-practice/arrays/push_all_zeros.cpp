@@ -23,7 +23,7 @@ void pushAllZerosToEnd(int *arr, int n) {
 
 		}
 	}
-	cout << printArray(arr, n);
+	printArray(arr, n);
 	return;
 }
 
