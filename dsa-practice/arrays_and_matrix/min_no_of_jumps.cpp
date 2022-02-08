@@ -9,31 +9,35 @@ using namespace std;
 class Solution {
 public:
     int minJumps(int arr[], int n) {
-        if (n <= 1)
+        if (n <= 1) {
             return 0;
+        }
 
-        // Your code here
         int jumps = 0;
+
         int i = 0;
-        int nextPos = arr[0];
         while (i < n) {
-            if (nextPos == 0) {
+            if (arr[i] == 0) {
                 return -1;
             }
-            i = i + nextPos;
+            int currVal = 0;
+            int currIndex = 0;
+            int maxReach  = arr[i];
+            for (int j = i + 1; j <= i + maxReach; j++) {
+                if (arr[j] > currVal) {
+                    currVal = arr[j];
+                    currIndex = j;
+                }
+            }
             jumps++;
-            if (i >= n) return jumps;
-            nextPos = arr[i];
+            i = i + currIndex;
         }
-
-        if (i < n - 1) {
-            return -1;
+        if (i >= n) {
+            return jumps;
         }
-
-
-        return jumps;
-
+        return -1;
     }
+
 };
 
 
